@@ -4,7 +4,7 @@
 class Integer {
 public:
 	static int counter;
-	int val;
+	int val;;
 	
 	Integer(int val) : val(val) {counter++;}
 	~Integer() {counter--;}
